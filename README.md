@@ -6,7 +6,7 @@ Het doel van de opdracht was om extra kennis op te doen over web development en 
 door een website te maken die gebruikt kan worden als een online portfolio. Dit wilde ik bereiken met
 behulp van de Free Code camp cursus _Responsive Web Design_. Free Code camp is een gratis online bron
 die als doel hebben om hun gebruikers met een project-based approach van beginnende webdevelopers op te
-leiden tot ontwikkelaars die klaar zijn voor het werkveld. Ik heb daarnaast ook andere bonnen geraadpleegd.
+leiden tot ontwikkelaars die klaar zijn voor het werkveld. Ik heb daarnaast ook andere bronnen geraadpleegd.
 
 Meer informatie is te vinden op [de Website](https://www.freecodecamp.org/) van Free Code Camp.
 
