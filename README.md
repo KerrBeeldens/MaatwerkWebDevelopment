@@ -1,4 +1,4 @@
-# Welkom op mijn GitHub wiki voor maatwerk!
+# Welkom op mijn GitHub repository voor maatwerk!
 Voor mijn studie Technische Informatica dien ik mijn vaardigheden als ontwikkelaar te verbreden met opdrachten die een aanvulling zijn op het onderwijsprogramma. Ik vind dat er op de studie minder aandacht is voor front-end development terwijl voor
 full-stack ontwikkelaars dit een belangrijk onderdeel is in hun dagelijkse werkzaamheden.
 
