@@ -1,0 +1,64 @@
+form {
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 5px;
+    min-width: 300px;
+    max-width: 600px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+p,
+h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea,
+select {
+    margin-bottom: 1em;
+    width: 100%;
+    min-height: 2em;
+}
+
+.inline {
+    display: inline;
+    margin: 0 0.5em 0 0;
+    width: unset;
+    vertical-align: middle;
+}
+
+
+body {
+    font-family: Tahoma;
+    font-size: 16px;
+    color: white;
+}
+
+fieldset {
+    border: none;
+    padding: 0; /* Don't understand why this works */
+    margin-bottom: 10px;
+}
+
+
+html {
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(112, 237, 119, 0.616), rgba(112, 237, 119, 0.616)), url(https://source.unsplash.com/grayscale-photo-of-person-using-macbook-_UeY8aTI6d0);
+    background-size:cover;
+  }
+
+input[type="submit"] {
+    background-color: #93468F;
+    border-color: #93468F;;
+    color: white;
+    font-size: 20px;
+}
