@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="layer"></div>
+    </div>
+    <div class="foreground">
+        <h1 id="title">Contact Formulier</h1>
+        <p id="description">Bent u geïnteresseerd? Neem dan contact met mij op!</p>
+
+        <form id="survey-form">
+            <label id="name-label"> Naam: <input type="text" required id="name"
+                    placeholder="Voornaam Achternaam"></label>
+            <label id="email-label"> Email: <input type="email" required id="email"
+                    placeholder="naam@domein.nl"></label>
+            <!-- In de praktijk zou ik niet zo een telefoonnummer invoeren -->
+            <label id="number-label"> telefoonnummer: <input type="number" id="number" min="0" max="9999999999"
+                    placeholder="0612345678"></label>
+
+            <fieldset>
+                <legend>Hoe heeft u mij gevonden?</legend>
+                <select id="dropdown">
+                    <option>Selecteer een optie</option>
+                    <option>Via mijn LinkedIn</option>
+                    <option>Via mijn CV</option>
+                    <option>Via Google</option>
+                    <option>Anders</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Wat bent u?</legend>
+                <label>
+                    <input type="radio" name="verzoek-type" value="werkgever" class="inline"> Ik ben een werkgever
+                </label>
+                <label>
+                    <input type="radio" name="verzoek-type" value="klant" class="inline"> Ik ben een klant
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Welke services heeft u interesse in?</legend>
+                <label><input type="checkbox" value="JavaFX" class="inline"> Het maken van een JavaFX applicatie</label>
+                <label><input type="checkbox" value="C#" class="inline"> Het maken van een C# of .NET applicatie</label>
+                <label><input type="checkbox" value="C" class="inline"> Het maken van een C applicatie</label>
+                <label><input type="checkbox" value="Website" class="inline"> Het maken van een website</label>
+            </fieldset>
+            <label> Heeft u nog verdere opmerkingen?
+                <textarea>
+            </textarea>
+            </label>
+
+            <input type="submit" id="submit">
+        </form>
+    </div>
+</body>
+
+</html>
