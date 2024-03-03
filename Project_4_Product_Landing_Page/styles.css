@@ -2,6 +2,11 @@ html {
 	box-sizing: border-box; 
 } 
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 *, *:before, *:after { 
 	box-sizing: inherit; 
 }
@@ -27,10 +32,13 @@ header{
     justify-content: space-around;
 }
 
-.nav-link {
-    margin: 0 1em;
+.nav-link, .footer-nav-link {
     text-decoration: none;
     color: black;
+}
+
+.nav-link {
+    margin: 0 1em;
 }
 
 .large-font {
@@ -137,4 +145,23 @@ li {
     padding: 0.5rem;
     margin: 1rem 0;
     width: 125px
+}
+
+footer {
+    background-color: #ddd;
+    padding: 1rem;
+    display: flex;
+    justify-content: end;
+    max-width: 1200px;
+    margin: auto
+}
+
+.footer-nav-link, #copyright {
+    margin-left: 2rem;
+}
+
+#copyright {
+    font-size: 0.9rem;
+    color: #444;
+    margin-top: 0.5rem;
 }
