@@ -32,3 +32,33 @@ header{
     text-decoration: none;
     color: black;
 }
+
+.large-font {
+    font-size: 1.5rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+#slogan {
+    text-align: center;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    height: 2rem;
+}
+
+#email {
+    width: 300px;
+    margin-bottom: 1rem;
+}
+
+#submit {
+    width: 150px;
+    background-color: #f1c40f;
+    border: none;
+    font-size: 1.1rem;
+}
