@@ -83,3 +83,14 @@ input {
     margin-top: 0;
     margin-bottom: 0.25rem;
 }
+
+#how-it-works {
+    width: 592px;
+    height: 333px;
+    margin: auto;
+}
+
+#video {
+    width: 100%;
+    height: 100%
+}
