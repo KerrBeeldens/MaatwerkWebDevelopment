@@ -16,7 +16,6 @@ html {
 body {
     background-color: #eee;
     font-family: 'Lato', sans-serif;
-    /* fixme */
 }
 
 header {
@@ -54,12 +53,12 @@ header {
 }
 
 .bold {
-    font-weight: 700;
+    font-weight: bold;
 }
 
 #slogan {
     text-align: center;
-    margin-top: 4em;
+    margin-top: 3.5em;
 }
 
 input {
@@ -70,6 +69,7 @@ input {
 
 #email {
     width: 300px;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -82,14 +82,14 @@ input {
 
 #features {
     max-width: 900px;
-    margin: auto;
+    margin: 5.5em auto;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 125px 1fr;
     align-items: center;
-    margin: 4rem 0;
+    margin: 3rem 0;
     column-gap: min(5vw, 50px);
 }
 
@@ -104,8 +104,8 @@ input {
 }
 
 #how-it-works {
-    width: 592px;
-    height: 333px;
+    max-width: 560px;
+    height: 315px;
     margin: auto;
 }
 
@@ -186,16 +186,12 @@ footer {
         margin: 1em;
     }
 
-    #slogan {
-        margin-top: 1em;
-    }
-
     .nav-link {
         margin: 0.25rem;
     }
 
     #slogan {
-        margin-top: 6em;
+        margin-top: 6.5em;
     }
 }
 
