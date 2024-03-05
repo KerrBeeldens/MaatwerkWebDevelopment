@@ -148,3 +148,15 @@ button:hover {
     flex-wrap: wrap;
     margin-top: 3rem;
 }
+
+footer {
+    background-color: var(--gray);
+    border-top: 4px solid var(--red);
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 3rem;
+    width: 100vw;
+    font-size: 1.25rem;
+    font-weight: normal;
+    padding: 3rem;
+}
